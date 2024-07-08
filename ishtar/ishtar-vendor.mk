@@ -1169,6 +1169,65 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ishtar/proprietary/vendor/lib/rfsa/adsp/nearby.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/nearby.so \
     vendor/xiaomi/ishtar/proprietary/vendor/lib64/vendor.xiaomi.hardware.aon-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.aon-V1-ndk.so
 
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/ishtar/proprietary/odm/bin/hw/vendor.nxp.hardware.nfc@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.nxp.hardware.nfc@2.0-service \
+    vendor/xiaomi/ishtar/proprietary/odm/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
+    vendor/xiaomi/ishtar/proprietary/odm/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nci.conf \
+    vendor/xiaomi/ishtar/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
+    vendor/xiaomi/ishtar/proprietary/odm/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp_RF.conf \
+    vendor/xiaomi/ishtar/proprietary/odm/lib64/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_ODM)/lib64/nfc_nci.nqx.default.hw.so \
+    vendor/xiaomi/ishtar/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service-st:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service-st \
+    vendor/xiaomi/ishtar/proprietary/vendor/bin/nqnfcinfo:$(TARGET_COPY_OUT_VENDOR)/bin/nqnfcinfo \
+    vendor/xiaomi/ishtar/proprietary/vendor/bin/pnscr:$(TARGET_COPY_OUT_VENDOR)/bin/pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/bin/pnscr-mi:$(TARGET_COPY_OUT_VENDOR)/bin/pnscr-mi \
+    vendor/xiaomi/ishtar/proprietary/vendor/bin/pnscr-rf:$(TARGET_COPY_OUT_VENDOR)/bin/pnscr-rf \
+    vendor/xiaomi/ishtar/proprietary/vendor/bin/qsap_voiceui:$(TARGET_COPY_OUT_VENDOR)/bin/qsap_voiceui \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service-st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service-st.rc \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/libnfc-SN220_19_2MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220_19_2MHZ.conf \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/libnfc-SN220_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220_38_4MHZ.conf \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/libnfc-hal-st-519_mtp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st-519_mtp.conf \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/libnfc-hal-st-ishtar.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st-ishtar.conf \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100_38_4MHZ.conf \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_bootup.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_bootup.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_ese_disableIso.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIso.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_ese_disableIsoRead.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIsoRead.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_nfcon.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_nfcon.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_chr.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_chr.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_cui.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_cui.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_ese_3.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_3.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_ese_3_hce.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_3_hce.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_ese_aclog.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_aclog.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_ese_cplc.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_cplc.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_ese_fabkey.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_fabkey.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_ese_free.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_free.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_ese_keyset.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_keyset.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_ese_sei2c_disable.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sei2c_disable.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_ese_sei2c_enable.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sei2c_enable.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_ese_sei2c_read.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sei2c_read.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_ese_sn.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sn.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_ndi.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ndi.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_pcv.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_pcv.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/sn100u_pnx_sst.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_sst.pnscr \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/st54j_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54j_conf.txt \
+    vendor/xiaomi/ishtar/proprietary/vendor/etc/st54k_conf_38.4MHz.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54k_conf_38.4MHz.txt \
+    vendor/xiaomi/ishtar/proprietary/vendor/lib64/android.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.0.so \
+    vendor/xiaomi/ishtar/proprietary/vendor/lib64/android.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.1.so \
+    vendor/xiaomi/ishtar/proprietary/vendor/lib64/android.hardware.nfc@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.2.so \
+    vendor/xiaomi/ishtar/proprietary/vendor/lib64/libchrome.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchrome.so \
+    vendor/xiaomi/ishtar/proprietary/vendor/lib64/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsn100u_fw.so \
+    vendor/xiaomi/ishtar/proprietary/vendor/lib64/libsn220u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsn220u_fw.so \
+    vendor/xiaomi/ishtar/proprietary/vendor/lib64/libstnfc-auth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstnfc-auth.so \
+    vendor/xiaomi/ishtar/proprietary/vendor/lib64/libvui_dmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvui_dmgr.so \
+    vendor/xiaomi/ishtar/proprietary/vendor/lib64/libvui_dmgr_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvui_dmgr_client.so \
+    vendor/xiaomi/ishtar/proprietary/vendor/lib64/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.st21nfc.st.so \
+    vendor/xiaomi/ishtar/proprietary/vendor/lib64/se_nq_extn_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/se_nq_extn_client.so \
+    vendor/xiaomi/ishtar/proprietary/vendor/lib64/vendor.nxp.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.hardware.nfc@2.0.so
+
 PRODUCT_PACKAGES += \
     vendor.qti.camera.postproc-impl \
     vendor.qti.camera.provider \
